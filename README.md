@@ -70,7 +70,7 @@ https://ブログトップページURL/カテゴリ名/?p=記事ID
 ↑上記はカテゴリIDは2になります。  
 
 ### 見た目の修正
+クラス名などは各ブログの設定により異なるため、個別で設定を行う必要があります。  
+以下ファイルより適切なCSSを当ててください。  
 
-
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+https://github.com/namekoX/blog/blob/master/src/scss/App.scss
