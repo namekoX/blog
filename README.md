@@ -1,11 +1,11 @@
 # このプロジェクトについて
 
-WordPressで作成されたブログのUIをSPA(React)で再構築しました。
-以下のブログで使用しているソースになります
-[https://vbaexcel.slavesystems.com/](https://vbaexcel.slavesystems.com/)
+WordPressで作成されたブログのUIをSPA(React)で再構築しました。  
+以下のブログで使用しているソースになります  
+[https://vbaexcel.slavesystems.com/](https://vbaexcel.slavesystems.com/)  
 
-ソース内の定数などを置き換えることで他のブログなどに適用可能です。
-（パーマリンクをカスタマイズしている場合は、固定値以外も修正が必要になります）
+ソース内の定数などを置き換えることで他のブログなどに適用可能です。  
+（パーマリンクをカスタマイズしている場合は、固定値以外も修正が必要になります）  
 
 ## 固定値の修正
 
