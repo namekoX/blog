@@ -8,8 +8,8 @@ WordPressで作成されたブログのUIをSPA(React)で再構築しました�
 （パーマリンクをカスタマイズしている場合は、固定値以外も修正が必要になります）  
 
 ## 固定値の修正
-
-In the project directory, you can run:
+ブログごとに設定が必要な固定値は、以下ソースで管理しています  
+https://github.com/namekoX/blog/blob/master/src/common/const.tsx
 
 ### `yarn start`
 
