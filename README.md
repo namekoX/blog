@@ -11,6 +11,7 @@ WordPressで作成されたブログのUIをSPA(React)で再構築しました�
 Word Press APIの標準だとカテゴリ名の取得ができないため  
 wp-includesフォルダに有るfunction.phpに以下を追記します。  
 
+```function.php
 add_action( 'rest_api_init', 'register_category_name' );
 function register_category_name() {
     register_rest_field( 'post',
@@ -25,6 +26,7 @@ function get_category_name( $object ) {
     $cat_name = $category[0]->cat_name;
     return $cat_name;
 }
+```  
 
 ※以下サイトを参考にさせていただきました。  
 https://qiita.com/yumayamada1029/items/c40e40200899330f957b
