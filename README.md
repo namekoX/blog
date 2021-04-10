@@ -1,8 +1,13 @@
-# Getting Started with Create React App
+# このプロジェクトについて
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+WordPressで作成されたブログのUIをSPA(React)で再構築しました。
+以下のブログで使用しているソースになります
+[https://vbaexcel.slavesystems.com/](https://vbaexcel.slavesystems.com/)
 
-## Available Scripts
+ソース内の定数などを置き換えることで他のブログなどに適用可能です。
+（パーマリンクをカスタマイズしている場合は、固定値以外も修正が必要になります）
+
+## 固定値の修正
 
 In the project directory, you can run:
 
